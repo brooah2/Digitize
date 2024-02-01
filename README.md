@@ -43,7 +43,7 @@ Accepted Document Types: Auth, Certificate, Communication, Contract, Data, Insur
 
 This list can be updated, and contains all of the types of files I have encountered in my digitization efforts up until this point. metadata() returns its data, which is then assigned to corresponding variables for year, month, contractor, and document type.
 
-_Future development of this project would allow the PDF (which is naturally searchable) to be searched by the function to suggest possible document types, but parsing the required libraries to navigate an Adobe-standard searchable PDF and implementing in the program would both increase the relative size of the program and appeared outside the scope of this assignment to me._
+_Future development of this project would allow the PDF (which is naturally searchable) to be searched by the function to suggest possible document types, but parsing the required libraries to navigate an Adobe-standard searchable PDF and implementing in the program would both increase the relative size of the program and was more than I had time for on this project._
 
 
 The **second** function for file processing is rename(), which takes file, month, contractor, and doctype as inputs. It then implements the naming convention and reassigns the f variable (which has been representing the file) to the new name of the file to be passed into the final function, move().
